@@ -5,7 +5,7 @@ const email = 'teste@gmail.com';
 const senha = '123456';
 
 //Pre-condição
-test.beforeEach(async ({page}) => {
+test.beforeEach(async ({ page }) => {
 
   // Acessando o site
   await page.goto('https://automationpratice.com.br/')
@@ -52,7 +52,7 @@ test('Acessando o Site e Realizando Login @teste', async ({ page }) => {
 })
 
 //Pós-condição
-test.afterEach (async ({page}) => {
+test.afterEach (async ({ page }) => {
 
   
 })
